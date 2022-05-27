@@ -20,7 +20,7 @@ class Solution {
         s[left]   = s[right];
         s[right]  = temp;
         
-        reverse(s,left+1,right-1);
+        reverse(s,++left,--right);
     }   
 }
 
